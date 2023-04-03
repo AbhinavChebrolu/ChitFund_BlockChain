@@ -23,7 +23,7 @@ Install these prerequisites to follow along,
 ### Step 1. Clone the project
 
 ```
-git clone https://github.com/Jameem/chit-fund.git
+git clone https://github.com/Abhinav/chit-fund.git
 ```
 ### Step 2. Install dependencies
 
