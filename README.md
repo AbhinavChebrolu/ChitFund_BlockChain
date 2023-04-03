@@ -1,17 +1,12 @@
 # ChitFund
 
-Chitfunds are collection of money from specific number of people in specific installments. At the end of each installment a random winner 
-is picked and transfered the money. This is run by a central authority can cause scams. Avoiding the central authority
-and using smart contract for storing the money and distributing will diminish the fraudulent activities and expenses for the
-central authority.
+Chit funds are key financial inclusion tools for millions in India, especially low-budget investors who do not have access to formal institutions like banks and NBFCs. A chit fund is a very traditional and homegrown financial tool that helps subscribers inculcate the habit of saving. India is home to millions of such subscribers who have been doing this for many decades, but on the other hand, the chit fund system is also prone to fraud. With news claiming that 1.2 to 1.4 million of public money is being lost because of various chip fund schemes. More than 350 frauds affecting 15 million families in 17 states were identified, mainly targeting low-income investors by several mutual fund companies.
 
 ## How the application work
 
-User is allowed to create Chitfunds and participants can join up to a defined limit. Each participant can pay his installment and after all
-participants are paid, smart contract picks the winner for the current installment and transfers the money to his wallet. After the transfer
-collection against the next installment is started.
+A user is allowed to create a chit fund and participants can join up to a prescribed limit. Each participant can pay his installments and after all participants are paid, the smart contract selects the winner for the current installment and transfers the money to his wallet. Transfer collection starts against the next installment.
+The smart contract is developed in Solidity, compiled by solc and deployed on the Rinkeby network using web3.js. NodeJs is used on the server, ReactJs on the front-end along with NextJs.
 
-Smart contract is developed in solidity, compiled by solc and deployed to Rinkeby network using web3.js. NodeJs is used on the server, ReactJs on the front-end along with NextJs. 
 
 ## Dependencies
 
